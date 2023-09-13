@@ -61,7 +61,7 @@ TEMPLATES = [
             ],
             "builtins": ["pattern_library.loader_tags"],
         },
-    },
+    }
 ]
 
 MIDDLEWARE = [
@@ -75,6 +75,6 @@ MIDDLEWARE = [
 ]
 
 # Preparation for Django 5.0 change.
-USE_TZ = False
+USE_TZ = True
 
 GITHUB_PAGES_EXPORT = False
